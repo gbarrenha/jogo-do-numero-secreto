@@ -2,7 +2,7 @@ alert("Boas vindas ao jogo do número secreto!");
 
 let numeroMaximo = 1000; // Deixa o número máximo a ser escolhido como 1000.
 const numeroSecreto = parseInt(Math.random() * numeroMaximo) + 1; // Faz a seleção de um número aleatório entre 1 e o número máximo.
-console.log(numeroSecreto); // Apenas para testes, remova essa linha quando for jogar de verdade.
+//console.log(numeroSecreto); // Apenas para testes, remova essa linha quando for jogar de verdade.
 
 let chute;
 let tentativas = 1; // O jogador já começa com 1 tentativa, pois ele fará um chute ao entrar no jogo.
